@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Nombre del programa: [SA] Práctica 3.
+Autor: Daniel Vázquez Joaquín.
+Materia: DAPPS.
+Tarea: [SA] Práctica 3.
+Fecha: 23/02/22.
+Descripción: Es una vista que implementa ScrollViews de forma Horizontal
+y vertical.
+
+Contenido:
+El archivo contiene los siguientes elementos:
+LinearLayout (vertical)
+LinearLayout (horizontal)
+HorizontalScrollView
+ScrollView
+ImagenView
+-->
+<!--
+Se agregó LineaLayout para agrupar todo el contenido que se
+encuentre en el
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="12">
+
+    <!--
+    Se agregó el HorizontalScrollView para desplazar el contenido que
+    se encuentra dentro del LinearLayout de forma horizontal
+    -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/wallhaven_22" />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/wallhaven_22"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/wallhaven_22"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!--
+    Se agregó el ScrollView para desplazar el contenido que
+    se encuentra dentro del LinearLayout de forma vertical
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:orientation="vertical">
+
+            <!--
+            Se agregaron LinearLayout de forma horizontal para
+            agrupar 2 imágenes
+            -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22" />
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/wallhaven_22"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
